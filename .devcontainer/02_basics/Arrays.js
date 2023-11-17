@@ -34,3 +34,17 @@ console.log("C ",newarr2);
 console.log(arr1);
 
 
+// concat: merge two or more array and returns a new array
+const marvel_heros=["thor", "captainAmerica", "ironMan"]
+const dc_heros=["flash", "batMan","superMan"]
+
+const FinalArr=marvel_heros.concat(dc_heros)
+console.log(FinalArr);
+
+const myArray=[1,2,3,[4,5,6],7,[9,10,11]]
+const finalMyArr=myArray.flat(Infinity)
+console.log(finalMyArr);
+
+const score
+
+
