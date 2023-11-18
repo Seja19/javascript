@@ -103,6 +103,18 @@ console.log(Object.values(instaUser));//datatype=array
 console.log(Object.entries(instaUser));
 console.log(instaUser.hasOwnProperty('isLogged'))
 
+//--------------------------------------------------------------------------------------------------------------------------------------
 
-
+const course={
+    courseName:"JS",
+    coursePrice:"999",
+    courseInstructor:"sejal",
+    courseDuration:" three months"
+}
+console.log(course.courseInstructor);
+// we can also print this in a different way
+const {courseName}=course
+console.log(courseName);
+const {courseInstructor:instructor}=course
+console.log(instructor);
 
