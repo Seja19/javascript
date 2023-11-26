@@ -34,3 +34,16 @@ console.log(addNNumbers(200,300,400,500));
     username:"meera",
     age:"21"
  })
+
+
+ // declaration of functions in two ways
+ // 1st
+ console.log(addOne(5))
+ function addOne(num){
+    return num+1
+ }
+ // 2nd
+ console.log(addTwo(6))
+ const addTwo=function(num){
+    return num+1
+ }
